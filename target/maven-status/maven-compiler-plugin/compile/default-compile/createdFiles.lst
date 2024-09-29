@@ -1,0 +1,7 @@
+com\mycompany\execersiseofficalweek6\resources\JakartaEE10Resource.class
+com\mycompany\execersiseofficalweek6\JakartaRestConfiguration.class
+murach\bussiness\Product.class
+murach\bussiness\Cart.class
+murach\bussiness\LineItem.class
+murach\cart\CartServlet.class
+murach\data\ProductIO.class
