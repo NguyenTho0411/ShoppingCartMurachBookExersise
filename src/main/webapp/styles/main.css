@@ -1,34 +1,77 @@
-/* The styles for the elements */
-body { 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 85%;
-    margin-left: 2em;
-    margin-right: 2em;
-}
-h1 {     
-    font-size: 140%;
-    color: teal;
-    margin-bottom: .5em;    
-}
-br {
-    clear: both;
+/* Phong cách chung cho toàn bộ trang */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  background-color: #f4f4f9;
+  color: #333;
 }
 
-#quantity {
-    width: 2em;
+h1 {
+  font-size: 140%;
+  color: teal;
+  text-align: center;
+  margin-bottom: 0.5em;
 }
 
-/* The styles for the tables */
+/* Phong cách cho bảng */
 table {
-    border: 1px solid black;
-    border-collapse: collapse;
-    width: 50em;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1em;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
 }
-th, td {
-    border: 1px solid black;
-    text-align: left;
-    padding: .5em;
+
+th {
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
 }
+
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
 .right {
-    text-align: right;
+  text-align: right;
+}
+
+/* Phong cách cho nút */
+input[type="submit"],
+a {
+  background-color: teal;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+input[type="submit"]:hover,
+a:hover {
+  background-color: #006666;
+}
+
+/* Phong cách cho input số lượng */
+#quantity {
+  width: 3em;
+  text-align: center;
+}
+
+/* Phong cách cho chú thích */
+p {
+  font-size: 0.9em;
+  color: #555;
+  text-align: center;
+  margin-top: 1em;
 }
